@@ -1,0 +1,14 @@
+.debug .container {
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+}
+
+.debug .container [class*="col-"] {
+    border: 1px solid white;
+    height: 50px;
+}
+
+p {
+    padding-top: 1rem;
+}
