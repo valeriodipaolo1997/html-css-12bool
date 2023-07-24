@@ -111,3 +111,7 @@
 .offset-col-10{
     margin-left: calc(100% / 12 * 10);
 }
+
+.offset-col-11 {
+    margin-left: calc(100% / 12 * 11); 
+}
