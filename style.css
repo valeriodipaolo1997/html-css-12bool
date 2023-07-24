@@ -1,14 +1,26 @@
-.debug .container {
-    border: 1px solid white;
-    background-color: blue;
+[class^="col-"] {
     color: white;
 }
 
-.debug .container [class*="col-"] {
-    border: 1px solid white;
-    height: 50px;
+.card {
+    background-color: blue;
 }
 
-p {
-    padding-top: 1rem;
+.container{
+    padding: 1rem 0;
+}
+
+[class^="col-"]{
+    padding: 1px;
+    font-size: .9rem;
+}
+
+.card{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    background-color: rgb(8, 228, 0);
 }
